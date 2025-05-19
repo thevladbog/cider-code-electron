@@ -1,20 +1,19 @@
 {
-  "name": "root",
-  "description": "Secure boilerplate for Electron app based on Vite",
-  "version": "3.1.0",
+  "name": "bottlecode-app",
+  "description": "",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "author": {
-    "email": "kozackunisoft@gmail.com",
-    "name": "Alex Kozack",
-    "url": "https://kozack.me"
+    "email": "hello@bottlecode.app",
+    "name": "Vlad Bogatyrev"
   },
   "main": "packages/entry-point.mjs",
   "workspaces": [
     "packages/*"
   ],
   "engines": {
-    "node": ">=23.0.0"
+    "node": ">=22.0.0"
   },
   "scripts": {
     "build": "npm run build -ws --if-present",
